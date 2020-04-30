@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/57c57c2e9a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+        <main id="main">
+            <header id="header">
+                <div class="left-side-header">
+                    <h4>Survey Page</h4>
+                    <button class="btn btn btn-success"><i class="fa fa-cross">Follow</i></button>
+            
+                </div>
+            
+                <div class="right-side-header">
+            
+                    <button class="btn btn-outline-secondary"><i class="fas fa-heart "></i></button>
+                    <button type="button" class="btn btn-secondary">Change View</button>
+                    <button type="button" class="btn btn-success">Sign up</button>
+                    <button type="button" class="btn btn-secondary">Log In</button>
+            
+                </div>
+            </header>
+
+            <div id="survey-description">
+                <h1 id="title">Alabian Coding Survey for New Geeks</h1>
+                <p id="description"><i>Thank you for taking your time in helping us improve the coding school</i></p>
+            </div>
+
+             <form action="" id="survey-form">
+                    <div class="form-group">
+                        <label for="name" id="name-label">Name:</label>
+                        <input  type="text" id="name" class="form-control" placeholder="Enter Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" id="email-label">Email:</label>
+                        <input type="email" id="email" class="form-control" placeholder="Enter Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="age" id="number-label">Age (optional):</label>
+                        <input step="number" min="12" max="50" type="number" class="form-control" id="number"  placeholder="Age">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Which option best describes your current role</label><br>
+                        <select class="form-control" id="dropdown">
+                            <option>Select current status</option>
+                            <option>Student</option>
+                            <option>Employed</option>
+                            <option>Prefer Not to say</option>
+                            <option>Full Time Learner</option>
+                            <option>Part Time Learner</option>
+                            <option>Others</option>
+
+                        </select>
+                    </div>
+                    <div class="form-check" id="radio">
+                        <label class="form-check-label">Would you recomend us to others?</label>
+                   
+                        <div class="form-check">
+                                <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio" value="definitely">Definitely
+                                </label>
+                        </div>
+                        <div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio" value="maybe">Maybe
+                            </label>
+                        </div><div class="form-check">
+                            <label class="form-check-label">
+                                <input type="radio" class="form-check-input" name="optradio" value="notsure">Not Sure
+                            </label><br><br>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                         <label>Whats's your favourite feature in learning?</label><br>
+                         <select class="form-control" id="dropdown">
+                             <option>Projects</option>
+                             <option>Online videos and Study</option>
+                             <option>Challenges</option>
+                             <option>Online Community</option>
+                         </select>
+                     </div>
+                    <div class="form-check form-group">
+                        <label class="form-check-label">What would you like to focus on? (tick all options applicable)</label><br>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="" value="Front-End-projects">Front-End Projects
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="" value="Back-End-projects">Back-End Projects
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="" value="Data-Analysis">Data-Analysis Projects
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="" value="git-github">Git & Githubs
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="" value="ui-ux">UI/UX Projects
+                        </label>
+                    </div>
+                    <div class="form-check">
+                        <label class="form-check-label">
+                            <input type="checkbox" class="form-check-input" name="" value="digital-marketing">Digital Marketing Projects
+                        </label><br><br>
+                    </div>
+                    <div class="form-group">
+                        <label for="comment">Any comments or suggestion?</label>
+                        <textarea id="comment" class="form-control" placeholder="Enter your comments/suggestions here..."></textarea>
+                    </div>
+
+                    <button class="btn btn-success btn-block" value="submit" id="submit">Submit</button>
+             </form>
+            
+     
+     
+        </main>
+
+
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+        <script src="js/jquery-3.3.1.slim.min"></script>
+        <script src="js/popper.min"></script>
+        <script src="js/bootstrap.min,js"></script>
+    </body>
+</html>

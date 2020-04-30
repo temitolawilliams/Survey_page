@@ -1,0 +1,42 @@
+#main{
+	background-color: hsl(240,0%,90%);
+    margin: 0px 10px 40px 10px;
+    background-image: url(../image/dp.jpg)
+}
+#header{
+	background-color: black;
+	padding-left: 30px;
+    display: flex;
+    width: 50%;
+}
+
+.left-side-header > h4{
+	color: white;
+}
+i{
+	color: lightgrey;
+	padding: 3px 3px 3px 3px;
+}
+.right-side-header{
+	position: relative;
+	left:740px;
+	margin: 10px 0px 10px 0px;
+}
+#survey-description{
+    margin-top: 30px;
+    text-align: center;
+    color:whitesmoke;
+
+}
+#survey-form{
+    background-color: darkslategray;
+    width: 50%;
+    text-align: left;
+    color: wheat;
+    margin: auto;
+    opacity: 0.8;
+    padding: 30px 30px 30px 30px;
+}
+#radio{
+    text-align: left;
+}
